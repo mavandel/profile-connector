@@ -1,9 +1,17 @@
 {
-  "name": "@mischareitsma/profile-connector",
+  "name": "@profile-psl/profile-connector",
   "description": "Profile Connector",
-  "version": "0.0.1-alpha1",
+  "version": "0.0.1",
   "license": "MIT",
   "type": "module",
+  "contributors": [
+    "SOliveira",
+    {
+      "name": "Mischa Reitsma",
+      "email": "dev@mreitmsa.com",
+      "url": "https://github.com/mischareitsma"
+    }
+  ],
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {

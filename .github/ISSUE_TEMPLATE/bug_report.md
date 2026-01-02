@@ -23,8 +23,8 @@ A clear and concise description of what you expected to happen.
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. Windows]
+**Versions**
+ - OS: [e.g. Windows, MacOS]
  - profile-connector: [e.g. 1.2.3]
  - node version: [e.g. 21.4.0]
 

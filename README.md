@@ -5,7 +5,7 @@ to a Profile instance.
 
 ## Development
 
-If you would like to join the development of this extension, you will need to
+If you would like to join the development of this project, you will need to
 install [node.js](https://nodejs.org/en/) (with npm) in order to install the
 dependencies.
 

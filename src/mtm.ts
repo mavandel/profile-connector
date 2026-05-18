@@ -103,7 +103,7 @@ export class MtmConnection {
 	async runCustom(fileName: string, mrpcID: string, request: string): Promise<string> {
 		try {
 			const codeToken = await this._send(fileName);
-			return await this._runCustom(codeToken, mrpcID, request);
+			return await this._runCustom(codeToken, mrpcID, request, fileName);
 		}
 		catch (err) {
 			this.close();
@@ -264,9 +264,11 @@ export class MtmConnection {
 	private async _runCustom(
 		codeToken: string,
 		mrpcID: string,
-		request: string
+		request: string,
+		fileName: string
 	): Promise<string> {
-		const prepareString = utils.customRunObject(request, codeToken);
+		const fileDetails = utils.getObjectType(fileName);
+		const prepareString = utils.customRunObject(request, codeToken, fileDetails.fileBaseName);
 		return await this.execute(
 			{ mrpcID, serviceClass: ServiceClass.MRPC },
 			prepareString

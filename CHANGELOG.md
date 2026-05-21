@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0]
+
+- Added additional parameter to customRunObject() and runCustom() to pass the filename.
+
 ## [0.0.1]
 
 ### Changed
@@ -18,5 +22,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Changed from tslint to eslint
 - Changed from jest to node unit tests
 
-[Unreleased]: https://github.com/ing-bank/psl-parser/compare/v0.0.1...HEAD
+[Unreleased]: https://github.com/ing-bank/psl-parser/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/ing-bank/psl-parser/compare/v0.0.1...v0.1.0
 [0.0.1]: https://github.com/ing-bank/psl-parser/compare/4814107ce1840d92c2ab0de99e31887014453d4c...v0.0.1
